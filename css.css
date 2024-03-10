@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+      font-family: "Ubuntu", sans-serif;
+      padding: 0;
+       margin: 0;
+}
+a{
+      color: #fff;
+      text-decoration: none;
+}
+body{
+      background-image: linear-gradient(to right, #271700,#000000);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+}
+/*big screen*/
+.containar{
+    background-image: linear-gradient( to right,#000000b8 30%,#00000088),
+    url(meik-schneider-e9zSM8orIfA-unsplash\ \(2\).jpg)
+    
+    
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+      width: 90%;
+      height: 640px;
+      
+}
+.containar:hover{
+      background-image: linear-gradient(to top,#1111118c 30%,transparent),
+      url(meik-schneider-e9zSM8orIfA-unsplash\ \(2\).jpg)
+      
+      ;
+        width: 90%;
+        height: 640px;
+        
+}
+header{
+      display: flex;
+      justify-content: space-between;
+}  
+
+/*laptop*/
+
+@media (min-width:445px) and (max-width:1200px){
+      .containar{
+            background-image: linear-gradient( to right,#000000b8 30%,#00000088),
+            url(kai-winckler-SVRpPD2p0RQ-unsplash.jpg)
+            
+            
+            ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+              width: 90%;
+              height: 640px;
+              
+      }
+      .containar:hover{
+            background-image: linear-gradient(to top,#1111118c 30%,transparent),
+            url(kai-winckler-SVRpPD2p0RQ-unsplash.jpg)
+            
+            ;
+              width: 90%;
+              height: 640px;
+              
+      }
+
+}
+/*mobile*/
+@media (min-width:350px) and (max-width:780px){
+      .containar{
+            background-image: linear-gradient( to right,#000000b8 30%,#00000088),
+            url(viktor-theo-cyuRhbqG5AI-unsplash.jpg)
+            
+            
+            ;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: 100%;
+              width: 90%;
+              height: 640px;
+              
+      }
+      .containar:hover{
+            background-image: linear-gradient(to top,#1111118c 30%,transparent),
+            url(viktor-theo-cyuRhbqG5AI-unsplash.jpg)
+            
+            ;
+              width: 90%;
+              height: 640px;
+              
+      }
+
+}
+.logo{
+      font-size: 30px;
+      text-transform: uppercase;
+}
+ul{width: 60%; 
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly ;
+      text-transform: capitalize;
+}
+ul a{
+      border-bottom: 2px solid transparent;
+}
+ul a:hover{
+      border-bottom-color: #fff;
+}
+ img{   width: 80px; height: 80px;
+      
+      display: flex;
+      top: 30px;
+      margin: 10px;
+}
+.content {
+      color: #fff;
+      width: 50%;
+      margin-top: 50px;
+      padding: 30px;
+      
+}
+.content h2{   font-size: 100px;
+      
+      font-family: "PT Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+      
+}
+.content p{     width: 350px;
+      letter-spacing: 2px;
+      
+}
+.Developer a{font-size: 3px;
+      position: absolute;
+      margin: 10px;
+      bottom: 3px;
+      display: flex;
+      text-decoration: underline;
+      bottom: 5px;
+      right: 10px;
+       font-family: "Josefin Sans", sans-serif;
+       font-optical-sizing: auto;
+       font-style: normal;
+}
